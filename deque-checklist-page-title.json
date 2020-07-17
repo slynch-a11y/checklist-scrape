@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Correct markup: The page <title> MUST be present and MUST contain text.",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
+        "wcag": "Required\nWCAG 2.4.2"
+    },
+    {
+        "title": "Accurate and informative: The page <title> MUST be accurate and informative.",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
+        "wcag": "Required\nWCAG 2.4.2"
+    },
+    {
+        "title": "Dynamic pages: The page <title> of dynamic pages (e.g. in single page apps) MUST be updated when the purpose of the page changes.",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
+        "wcag": "Required\nWCAG 2.4.2"
+    },
+    {
+        "title": "User Actions: If a page is the result of a user action or scripted change of context, the text of the <title> SHOULD describe the result or change of context to the user.",
+        "link": "no link",
+        "wcag": "best practice"
+    },
+    {
+        "title": "Concise: The <title> SHOULD be concise.",
+        "link": "no link",
+        "wcag": "best practice"
+    },
+    {
+        "title": "Unique: The page <title> SHOULD be unique, if possible.",
+        "link": "no link",
+        "wcag": "best practice"
+    },
+    {
+        "title": "Unique info first: Unique information SHOULD come first in the <title>.",
+        "link": "no link",
+        "wcag": "best practice"
+    },
+    {
+        "title": "Match heading: The page <title> SHOULD match (or be very similar to) the top heading (ideally marked as <h1>) in the main content.",
+        "link": "no link",
+        "wcag": "best practice"
+    }
+]
