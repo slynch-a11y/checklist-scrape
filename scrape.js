@@ -22,17 +22,25 @@ var fs = require('fs');
          
 			var techniqueArray = [];
 			for (var i = 0; i < technique.length; i++) {
-				var wcagLink;
+				var wcagLink, successCriterion, requiredOrBestPractice;
 				if (link[i]) {
-					wcagLink = link[i].href;
+                    wcagLink = link[i].href;
+                    successCriterion = link[i].innerHTML;
 				} else {
-					wcagLink = 'no link';
-				}
+                    wcagLink = 'no link';
+                    successCriterion = 'not applicable';
+                }
+                if (wcag[i].innerText.includes("Required")){
+                    requiredOrBestPractice = "Required"
+                }else {
+                    requiredOrBestPractice = "Best Practice"
+                }
 				techniqueArray[i] = {
                     category: pageTitle.substring(0, pageTitle.indexOf(' |')),
 					title: technique[i].innerText.trim(),
 					link: wcagLink,
-					wcag: wcag[i].innerText.trim()
+                    required: requiredOrBestPractice,
+                    successCriterion: successCriterion
 				};
 			}
 			return techniqueArray;
