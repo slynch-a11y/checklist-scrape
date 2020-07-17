@@ -8,15 +8,18 @@ var fs = require('fs');
 		var browser = await puppeteer.launch({ headless: false });
 		// open a new page
 		var page = await browser.newPage();
-		// enter url in page
-		await page.goto(`https://dequeuniversity.com/checklists/web/page-title`);
-		await page.waitForSelector('td.td-technique');
+        // enter url in page
+        var url = `https://dequeuniversity.com/checklists/web/page-title`;
 
+		await page.goto(url);
+		await page.waitForSelector('td.td-technique');
+        
 		var techniques = await page.evaluate(() => {
+            var pageTitle = document.title;
 			var technique = document.querySelectorAll(`td.td-technique`);
 			var wcag = document.querySelectorAll(`td.td-wcag-sc`);
 			var link = document.querySelectorAll(`td.td-wcag-sc > a`);
-
+         
 			var techniqueArray = [];
 			for (var i = 0; i < technique.length; i++) {
 				var wcagLink;
@@ -26,6 +29,7 @@ var fs = require('fs');
 					wcagLink = 'no link';
 				}
 				techniqueArray[i] = {
+                    category: pageTitle.substring(0, pageTitle.indexOf(' |')),
 					title: technique[i].innerText.trim(),
 					link: wcagLink,
 					wcag: wcag[i].innerText.trim()
