@@ -1,58 +1,2917 @@
 [
-    {
-        "category": "Page Title",
-        "title": "Correct markup: The page <title> MUST be present and MUST contain text.",
-        "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
-        "required": "Required",
-        "successCriterion": "WCAG 2.4.2"
-    },
-    {
-        "category": "Page Title",
-        "title": "Accurate and informative: The page <title> MUST be accurate and informative.",
-        "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
-        "required": "Required",
-        "successCriterion": "WCAG 2.4.2"
-    },
-    {
-        "category": "Page Title",
-        "title": "Dynamic pages: The page <title> of dynamic pages (e.g. in single page apps) MUST be updated when the purpose of the page changes.",
-        "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
-        "required": "Required",
-        "successCriterion": "WCAG 2.4.2"
-    },
-    {
-        "category": "Page Title",
-        "title": "User Actions: If a page is the result of a user action or scripted change of context, the text of the <title> SHOULD describe the result or change of context to the user.",
-        "link": "no link",
-        "required": "Best Practice",
-        "successCriterion": "not applicable"
-    },
-    {
-        "category": "Page Title",
-        "title": "Concise: The <title> SHOULD be concise.",
-        "link": "no link",
-        "required": "Best Practice",
-        "successCriterion": "not applicable"
-    },
-    {
-        "category": "Page Title",
-        "title": "Unique: The page <title> SHOULD be unique, if possible.",
-        "link": "no link",
-        "required": "Best Practice",
-        "successCriterion": "not applicable"
-    },
-    {
-        "category": "Page Title",
-        "title": "Unique info first: Unique information SHOULD come first in the <title>.",
-        "link": "no link",
-        "required": "Best Practice",
-        "successCriterion": "not applicable"
-    },
-    {
-        "category": "Page Title",
-        "title": "Match heading: The page <title> SHOULD match (or be very similar to) the top heading (ideally marked as <h1>) in the main content.",
-        "link": "no link",
-        "required": "Best Practice",
-        "successCriterion": "not applicable"
-    }
+    [
+        {
+            "category": "Page Title",
+            "description": "Correct markup: The page <title> MUST be present and MUST contain text.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.2"
+        },
+        {
+            "category": "Page Title",
+            "description": "Accurate and informative: The page <title> MUST be accurate and informative.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.2"
+        },
+        {
+            "category": "Page Title",
+            "description": "Dynamic pages: The page <title> of dynamic pages (e.g. in single page apps) MUST be updated when the purpose of the page changes.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.2"
+        },
+        {
+            "category": "Page Title",
+            "description": "User Actions: If a page is the result of a user action or scripted change of context, the text of the <title> SHOULD describe the result or change of context to the user.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Page Title",
+            "description": "Concise: The <title> SHOULD be concise.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Page Title",
+            "description": "Unique: The page <title> SHOULD be unique, if possible.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Page Title",
+            "description": "Unique info first: Unique information SHOULD come first in the <title>.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Page Title",
+            "description": "Match heading: The page <title> SHOULD match (or be very similar to) the top heading (ideally marked as <h1>) in the main content.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Language",
+            "description": "Page Language: The primary language of the page MUST be identified accurately, using a standard language code, on the <html> element (e.g. <html lang=\"en\"> or <html lang=\"fr\">).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-page",
+            "required": "Required",
+            "successCriterion": "WCAG 3.1.1"
+        },
+        {
+            "category": "Language",
+            "description": "Language of Parts: Inline language changes MUST be identified with a valid lang attribute.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts",
+            "required": "Required",
+            "successCriterion": "WCAG 3.1.2 "
+        },
+        {
+            "category": "Language",
+            "description": "Two-character language code: The language code SHOULD be designated with a standard two-character ISO 639-1 code (e.g. lang=\"en\") to achieve maximum support across screen readers and browsers, though other codes (e.g. lang=\"en-us\") are technically allowable.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Headings",
+            "description": "Bypass blocks: Screen readers allow users to navigate by headings, so headings are an effective way to bypass blocks of content, as required by WCAG 2.4.1. Note: Headings are not absolutely required by WCAG to pass 2.4.1, but are highly recommended, along with landmarks and skip links.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.1"
+        },
+        {
+            "category": "Headings",
+            "description": "Accurate, informative section labels: Headings MUST be accurate and informative, as labels for the sections of text they describe.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Headings",
+            "description": "Brevity: Heading text SHOULD be concise and relatively brief.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Headings",
+            "description": "Use real headings: Text that acts as a heading visually or structurally SHOULD be designated as a true heading (<h1>, <h2>, etc.) in the markup.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Headings",
+            "description": "Heading Markup for Headings Only: Text that does not act as a heading visually or structurally SHOULD NOT be marked as a heading.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Headings",
+            "description": "Content outline: Headings SHOULD convey a clear and accurate structural outline of the sections of content of a web page.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Headings",
+            "description": "Consecutive levels: Headings SHOULD NOT skip hierarchical levels.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Headings",
+            "description": "First heading in the main content: The beginning of the main content SHOULD start with <h1>.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Headings",
+            "description": "One <h1>: Most web pages SHOULD have only one <h1>.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Landmarks",
+            "description": "Bypass blocks: Screen readers allow users to navigate by landmarks, so landmarks are an effective way to bypass blocks of content, as required by WCAG 2.4.1. Other methods may be used as well as — or instead of — landmarks, such as skip links, headings, expand/collapse regions, etc.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.1"
+        },
+        {
+            "category": "Landmarks",
+            "description": "Page layout groupings: Landmarks SHOULD be used to accurately designate pre-defined parts of the layout (e.g. the header, navigation, main content, and footer).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Landmarks",
+            "description": "Content within landmarks: All text SHOULD be contained within a landmark region.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Landmarks",
+            "description": "Landmark names: Multiple instances of the same type of landmark SHOULD be distinguishable by different discernible names (using aria-label or aria-labelledby).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Landmarks",
+            "description": "Only one instance of some landmarks: A page SHOULD NOT contain more than one instance of each of the following landmarks: header/banner, main, and footer/contentinfo.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Landmarks",
+            "description": "Limit the number of landmarks: The total number of landmarks SHOULD be minimized to the extent appropriate for the content. Note: Having a large number of landmarks defeats the main purpose of landmarks, which is to make it easy to navigate quickly to sections of the layout.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Landmarks",
+            "description": "Markup: Landmarks MAY be designated with either HTML tags or their equivalent ARIA roles (e.g. <header> or role=\"banner\", <nav> or role=\"navigation\", <main> or role=\"main\", <footer> or role=\"contentinfo\", etc.).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Lists",
+            "description": "List markup: Lists MUST be constructed using the appropriate semantic markup (i.e. <ul> or <ol> with <li> child elements, or <dl> with <dt> and <dd> child elements).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        }
+    ],
+    [
+        {
+            "category": "Tables",
+            "description": "Header tag: Table headers MUST be designated with <th>.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Tables",
+            "description": "Meaningful header: Data table header text MUST accurately describe the category of the corresponding data cells.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Tables",
+            "description": "Header and data cell associations: Table data cells MUST be associated with their corresponding header cells.\nNote: Use of scope (<th scope=\"col\"> and <th scope=\"row\">) is highly recommended, though not always necessary (i.e. if all cells in the first row are marked as <th> without scope, most modern screen readers will infer that the scope is the column below each header cell).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Tables",
+            "description": "Group header associations: Table data group headers (if any) MUST be associated with their corresponding data cell groups (e.g. via scope=\"rowgroup\" or scope=\"colgroup\").",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Tables",
+            "description": "Complex header associations: Header/data associations that cannot be designated with <th> and scope MUST be designated with the headers and id attributes.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Tables",
+            "description": "Nested or split tables: Data table headers and data associations MUST NOT be referenced across nested, merged, or separate tables.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Tables",
+            "description": "Tables: Tabular data SHOULD be represented in a <table>.\nNote: Even if the data are not represented in a table, WCAG 1.3.1 requires the data to be associated with their labels.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Tables",
+            "description": "Caption: Data tables SHOULD have a programmatically-associated <caption> or name (e.g. via aria-label or aria-labelledby).\nNote: In most circumstances, <caption> is preferred, because it is the native method of giving a name to a table, and the <caption> is visible and available to all users by default.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Tables",
+            "description": "Meaningful caption: The name or <caption> of a data table SHOULD describe the identity or purpose of the table accurately, meaningfully, and succinctly.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Tables",
+            "description": "Unique caption: The name or <caption> of each data table SHOULD be unique within the context of other tables on the same page.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Tables",
+            "description": "Avoid layout tables: Tables SHOULD NOT be used for the purpose of purely visual (non-data) layout.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Tables",
+            "description": "Avoid headers in layout tables: Layout tables MUST NOT contain headers.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Iframes",
+            "description": "Meaningful iframe title attribute: The iframe title attribute (on the parent page) MUST be accurate and descriptive.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.1"
+        },
+        {
+            "category": "Iframes",
+            "description": "Unique title attributes: Every iframe SHOULD have a unique title (in the context of the page).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Iframes",
+            "description": "Hidden or empty iframes: Hidden frames or frames that do not convey content to users SHOULD be hidden from assistive technologies using aria-hidden=\"true\".",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Iframes",
+            "description": "Page title of embedded page: The source page of an iframe (the page embedded in the iframe) MUST have a valid, meaningful <title>.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.2"
+        }
+    ],
+    [
+        {
+            "category": "Markup Validity",
+            "description": "Unique IDs: IDs MUST be unique within a web page.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/parsing",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.1"
+        },
+        {
+            "category": "Markup Validity",
+            "description": "Unique Names: The \"accessible names\" of elements, when provided, of block level elements (e.g. landmarks, tables, iframes, etc.) SHOULD be unique within a web page.\nNote: The accessible name is determined by attributes or elements such as aria-label, aria-labelledby, alt, <caption>, etc. Refer to the Accessible Name and Description Computation for details.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Markup Validity",
+            "description": "One Attribute Instance: Elements MUST NOT contain more than one instance of the same attribute.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/parsing",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.1"
+        },
+        {
+            "category": "Markup Validity",
+            "description": "Closing Tags: Elements must not be missing closing tags.\nDIV or P element must not be nested within a LABEL element.\nElement must not contain duplicate attributes.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/parsing",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.1"
+        },
+        {
+            "category": "Markup Validity",
+            "description": "Parent-Child Relationships: Markup MUST adhere to required parent-child relationships of elements and attributes.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/parsing",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.1"
+        },
+        {
+            "category": "Markup Validity",
+            "description": "ARIA relationships: ARIA relationships (e.g. parent-child, aria-owns, etc.) SHOULD adhere to WAI-ARIA Authoring Practices",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/parsing",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.1"
+        },
+        {
+            "category": "Markup Validity",
+            "description": "Deprecated Markup should not be used.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Other Semantic Elements",
+            "description": "See the requirements for headings.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "See the requirements for landmarks.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "See the requirements for lists.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "See the requirements for tables.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "See the requirements for links.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Emphasis: Critical emphasis in the text SHOULD be conveyed in a text-based format, not visual styling alone.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Highlighting markup: Highlighted text SHOULD be marked with the <mark> element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Text-based highlighting: Critical highlighted text SHOULD be supplemented with a text-based method to convey the meaning of the highlighting.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Blockquote: The <blockquote> element SHOULD be used to designate long (block level) quotations.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Indentation: The <blockquote> element SHOULD NOT be used for visual styling (indentation) alone.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Inline quotations: The <q> element (for inline quotations) SHOULD NOT be used as the only way to designate quotations, due to poor support in screen readers and some browsers.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Strikethrough markup: Strikethrough text SHOULD be marked with the <del> element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Strikethrough supplemental text: Critical strikethrough text MUST be supplemented with a text-based method to convey the meaning of the strikethrough.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Insert markup: Text designated for insertion SHOULD be marked with the <ins> element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Other Semantic Elements",
+            "description": "Insert supplemental text: Critical text designated for insertion MUST be supplemented with a text-based method to convey the meaning of the insertion.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        }
+    ],
+    [
+        {
+            "category": "Links",
+            "description": "Link markup: Links MUST be semantically designated as such.\nNote: Ideally this means using an <a> element with a valid href value. In rare problematic cases, setting role=\"link\" (and adding all other aspects of link functionality) may be acceptable.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Links",
+            "description": "Links versus buttons: Links SHOULD be used only for actions that take the user to other locations, and SHOULD NOT be used for button-like functionality.\nNote 1: \"Other locations\" means other web pages, or to other locations in the same web page. Typically, the URL will change after activating a link.\nNote 2: \"Button-like functionality\" means scripted features, including submitting forms.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Discernible text: A link MUST have programmatically-discernible text, as determined by the accessible name calculation algorithm.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Links",
+            "description": "Distinguishable link purpose: The purpose of each link MUST be understandable and distinguishable from other links on the same page, either from the link text alone (ideally), or from the immediate surrounding context of the link.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.4"
+        },
+        {
+            "category": "Links",
+            "description": "Avoid \"link\" (or similar) in the link text: The link text SHOULD NOT state its semantic role (e.g. don't say \"link to...\"), because screen readers already state the role before reading the link text.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Consistent link text across pages: Links to the same destinations MUST be consistently identified with the same (or very similar) link text across all pages of the site.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification",
+            "required": "Required",
+            "successCriterion": "WCAG 3.2.4"
+        },
+        {
+            "category": "Links",
+            "description": "Links opening in new tab or window: A link that opens in a new window or tab SHOULD indicate that it opens in a new window or tab.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Links to non-HTML files: A link to a file or destination in a non-HTML format (e.g. MS Word, PDF, plain text, etc.) SHOULD indicate the type of file or destination.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Links to external sites: A link to an external site MAY indicate that it leads to an external site.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Keyboard-focusable: Links MUST be keyboard-focusable.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.1"
+        },
+        {
+            "category": "Links",
+            "description": "Keyboard activation: Links MUST activate with the enter/return key.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.1"
+        },
+        {
+            "category": "Links",
+            "description": "Focus order: The navigation order of focusable elements (links, form elements, etc.) MUST be logical and intuitive.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Links",
+            "description": "Tabindex: The tabindex attribute SHOULD NOT be used with positive values to customize the tab order (e.g. don't use tabindex=\"1\").",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Links visually distinguishable from non-links: Links MUST be visually distinguishable from surrounding non-link text.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.1"
+        },
+        {
+            "category": "Links",
+            "description": "Color as a way to visually distinguish links: Color alone MUST NOT be used as the only way to distinguish links from surrounding text unless the color contrast between the link and the surrounding text is at least 3:1 and an additional differentiation (e.g. underline, outline, etc.) is provided when the link is hovered or receives focus.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.1"
+        },
+        {
+            "category": "Links",
+            "description": "Link contrast: Links MUST have a contrast ratio of 4.5:1 (for small text) or 3:1 (for large text) against their background.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Links",
+            "description": "Target size: Links SHOULD measure a minimum of 44px by 44px.\nNote: Inline links in paragraphs or blocks of text MAY be smaller.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Focus indicator: All links MUST show a visual focus indicator when in focus.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.7"
+        },
+        {
+            "category": "Links",
+            "description": "Enhanced focus indicator: Links MAY have enhanced visual focus indicator styles.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Small focus indicators: The contrast of all small visual focus indicators (smaller than 3px by 3px) against the background SHOULD be at least 4.5 to 1.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Large focus indicators: The contrast of all large visual focus indicators (at least 3px by 3px) against the background SHOULD be at least 3 to 1.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Enhanced hover indicator: Links SHOULD have enhanced visual hover indicator styles.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Hover cursor style: On hover over a link, the mouse cursor SHOULD appear as the pointer style, to provide a visual confirmation of the link role.\nNote: On most browsers, the pointer style is represented by an icon of a hand with the index finger pointing forward.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Links",
+            "description": "Skip navigation: A keyboard-functional \"skip\" link SHOULD be provided to allow keyboard users to navigate directly to the main content.\nNote 1: The \"skip\" link SHOULD be the first focusable element on the page.\nNote 2: The \"skip\" link MUST be either visible at all times or visible on keyboard focus.\nNote 3: \"Skip\" links, landmarks (e.g. <nav>, <main>, etc.), and page table of contents are each valid and sufficient methods to satisfy the WCAG 2.4.1 requirement to allow users to bypass blocks of content. Ideally the design would include all of these techniques, where appropriate.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.1"
+        },
+        {
+            "category": "Links",
+            "description": "Page table of contents: A table of contents for the page MAY be included at the top of the content or in the header.\nNote: Ideally, the links in the table of contents SHOULD correspond to the heading structure in the page content.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.1"
+        }
+    ],
+    [
+        {
+            "category": "Site Navigation",
+            "description": "Consistent Navigation Patterns: Navigation patterns that are repeated on web pages MUST be presented in the same relative order each time they appear and MUST NOT change order when navigating through the site.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation",
+            "required": "Required",
+            "successCriterion": "WCAG 3.2.3"
+        },
+        {
+            "category": "Site Navigation",
+            "description": "Consistent Identification: Elements such as labels, names, and text alternatives for content that have the same functionality across multiple screens must be consistently identified.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification",
+            "required": "Required",
+            "successCriterion": "WCAG 3.2.4"
+        },
+        {
+            "category": "Site Navigation",
+            "description": "Multiple ways: Multiple ways must be available to find other web pages on the site — at least two of: a list of related pages, table of contents, site map, site search, or list of all available web pages.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.5"
+        },
+        {
+            "category": "Site Navigation",
+            "description": "Markup: A navigation list SHOULD be designated with the <nav> element or role=\"navigation\". See also landmarks.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Site Navigation",
+            "description": "Visible \"you are here\" indicator: A navigation list SHOULD include a visible method of informing users which page within the navigation list is the currently active/visible page.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Site Navigation",
+            "description": "Non-visual \"you are here\" indicator: A navigation list SHOULD include a method available to assistive technologies of informing non-visual users which page within the navigation list is the currently active/visible page.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Within-Page Navigation",
+            "description": "Bypass blocks: A method MUST exist to bypass repeated blocks of content. Possible techniques applicable to almost all pages include skip links, headings, and landmarks. It's best to use all of these techniques, if possible. Other techniques include page-specific table of contents links and expandable/collapsible regions.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.1"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Reading Order: The reading and navigation order MUST be logical and intuitive.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.2"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Focus Order: The navigation order of focusable elements MUST be logical and intuitive.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Provide a skip link: A keyboard-functional \"skip\" link SHOULD be provided to allow keyboard users to navigate directly to the main content.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "First focusable element: The \"skip link\" SHOULD be the first focusable element on the page.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Skip link visibility: A skip link MUST be either visible at all times or visible on keyboard focus.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Table of contents links: A table of contents for the page MAY be included at the top of the content or in the header.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Reflect the heading structure: If a table of contents for the page is included, it SHOULD reflect the heading structure of the page.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Visual \"you are here\" indicator: A paginated view SHOULD include a visible method of informing users which view is the currently active/visible view.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Non-visual \"you are here\" indicator: A paginated view SHOULD include a method available to assistive technologies of informing non-visual users which view is the currently active/visible view.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Within-Page Navigation",
+            "description": "Single-key shortcuts: If a single-character-key shortcut exists, then at least one of the following MUST be true: single-character-key shortcuts can be turned off, remapped, or are only active when the relevant user interface component is in focus.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.4"
+        }
+    ],
+    [
+        {
+            "category": "Reading Order/Focus Order",
+            "description": "Reading Order: The reading order MUST be logical and intuitive.\nNote: The default reading order is determined by the order of the elements in the DOM.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.2"
+        },
+        {
+            "category": "Reading Order/Focus Order",
+            "description": "Focus Order: The navigation order of focusable elements MUST be logical and intuitive.\nNote 1: Focusable elements include links, form inputs and controls, buttons, and any element with a tabindex value of 0 or greater.\nNote 2: The default reading order is determined by the order of the focusable elements in the DOM.\nNote 3: Use the tab key to navigate forward through focusable elements, and shift + tab to navigate backward.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Reading Order/Focus Order",
+            "description": "Positive values: A tabindex of positive values (e.g. tabindex=\"1\", tabindex=\"2\", etc.) SHOULD NOT be used, because the result is almost always an illogical reading and/or tab order.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Reading Order/Focus Order",
+            "description": "Zero: Use tabindex=\"0\" to make a custom widget or control focusable, if it is not already focusable.\nNote: Use natively focusable elements whenever possible (e.g. links, form inputs and controls, buttons), rather than custom controls, for simplicity in markup and implementation.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Reading Order/Focus Order",
+            "description": "Negative 1: Use tabindex=\"-1\" to allow JavaScript to send the focus to an element, without putting it in the focus order.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Images",
+            "description": "Alternative text: The image MUST have alternative text. Refer to the techniques for various image types:\nimages using <img>\nactive images\nform input images\nSVG using <img>\nSVG using <svg>\nHTML5 canvas\nicon fonts",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "Images",
+            "description": "Meaningful description: Alternative text MUST be meaningful (accurately conveying the purpose of the image, and the author's intent in a way that is useful to those who cannot see the image).\nNote 1: Image links SHOULD describe the link destination.\nNote 2: Button/control links SHOULD describe the purpose and/or resulting action of the button or control.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "Images",
+            "description": "Concise: The length of the alternative text for informative images SHOULD be concise (no more than about 250 characters).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Images",
+            "description": "Avoid restating that the element is an image: Alternative text SHOULD NOT include words that identify the element as a graphic or image (e.g. avoid phrases like \"graphic of,\" or \"image of,\" etc.), because screen readers already state the role (e.g. by saying \"graphic\" then reading the alternative text).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Images",
+            "description": "Unessential Images: Images that do not convey content, are decorative, or are redundant to content that is already conveyed in text SHOULD be given null (empty) alternative text (alt=\"\"), ARIA role=\"presentation\", or implemented as CSS backgrounds.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Images",
+            "description": "Complex Images: Complex images MUST be briefly described using alt text AND MUST have a more complete extended description.\nNote: It is not \"wrong\" to provide descriptive alternative text in these instances, but it is highly discouraged if the image is truly unessential.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "Images",
+            "description": "Informative background images: If a background image conveys information, alternative text MUST be provided (e.g. via regular visible text, by adding role=\"image\" and aria-label, or by other means).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "Images",
+            "description": "Active background images: If a background image is the only \"content\" in an active element (e.g. a link, button, or control), the active element MUST have an accessible name (e.g. via aria-label or similar).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "Images",
+            "description": "Color contrast of small text: Small text (under 18 point regular font or 14 point bold font) MUST have a contrast ratio of at least 4.5 to 1 with the background.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Images",
+            "description": "Color contrast of large text: Large text (at or over 18 point or 14 point bold) MUST have a contrast ratio of at least 3 to 1 with the background.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Images",
+            "description": "Unessential background images: Alternative text SHOULD NOT be provided for unessential background images.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Images",
+            "description": "No Images of Text: An image MUST NOT include informative text if an equivalent visual presentation of the text can be rendered using real text (unless the text is essential — such as a logo — or the font, size, color, and background are customizable.).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.5"
+        },
+        {
+            "category": "Images",
+            "description": "Color contrast of small text: Small text (under 18 point regular font or 14 point bold font) MUST have a contrast ratio of at least 4.5 to 1 with the background.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Images",
+            "description": "Color contrast of large text: Large text (at or over 18 point or 14 point bold) MUST have a contrast ratio of at least 3 to 1 with the background.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Images",
+            "description": "See the requirements for Animation, Motion, and Timed Content",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Images",
+            "description": "Alternative text: Image CAPTCHA elements MUST have alternative text describing the purpose of the image.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "Images",
+            "description": "Sensory alternatives: Image CAPTCHA elements MUST be supplemented with at least one auditory alternative method.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "Images",
+            "description": "Deafblind access: At least one text-based alternative SHOULD be provided that allows users who are both deaf and blind to pass the CAPTCHA.\nNote: Deafblind users typically use screen readers to convert text to braille, using a refreshable braille device.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Color and Contrast",
+            "description": "Use of color: Any information conveyed by color MUST be accompanied by a programmatically-discernible text alternative.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.1"
+        },
+        {
+            "category": "Color and Contrast",
+            "description": "Visible Alternative: Any information conveyed by color MUST be accompanied by a visible alternative (text, image, etc.) that does not depend on color for meaning.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.1"
+        },
+        {
+            "category": "Color and Contrast",
+            "description": "Small Text Contrast: Small text (under 18 point regular font or 14 point bold font) MUST have a contrast ratio of at least 4.5 to 1 with the background.\n\nNote: The contrast rule also applies to images of text, even though images of text are discouraged.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Color and Contrast",
+            "description": "Large Text Contrast: Large text (at or over 18 point or 14 point bold) MUST have a contrast ratio of at least 3 to 1 with the background.\n\nNote: The contrast rule also applies to images of text, even though images of text are discouraged.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Color and Contrast",
+            "description": "UI Component Contrast: The contrast of UI control boundaries compared to adjacent areas MUST be at least 3 to 1 to distinguish the UI control from the adjacent areas.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.11"
+        },
+        {
+            "category": "Color and Contrast",
+            "description": "Visual Focus Indicator Contrast: The contrast of all visual focus indicators against the background MUST be at least 3 to 1.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.11"
+        },
+        {
+            "category": "Color and Contrast",
+            "description": "Retain Visible Information: Web content SHOULD retain all essential visual information in Windows High Contrast Mode.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Color and Contrast",
+            "description": "Don't Override: The design SHOULD NOT override Windows High Contrast Mode.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Resize Text 200%: The page SHOULD be functional when only the text is magnified to 200% of its initial size.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/resize-text",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.4"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Mobile Zoom: The page MUST allow users to zoom in on mobile devices (The following is NOT allowed: <meta name=\"viewport\" content=\"user-scalable=no\">)",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/resize-text",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.4"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "One Scroll Direction Only: Content MUST NOT require scrolling in two directions (both vertically and horizontally) — even when the viewport is set or zoomed to 320 CSS pixels wide (for vertically-scrolling content) or 256 CSS pixels high (for horizontally-scrolling content) — unless both scrolling directions are essential to the usage or meaning of the content.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.10"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "No Images of Text: An image MUST NOT include informative text if an equivalent visual presentation of the text can be rendered using real text (unless the text is essential — such as a logo — or the font, size, color, and background are customizable.).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.5"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Color contrast of small text: Small text (under 18 point regular font or 14 point bold font) MUST have a contrast ratio of at least 4.5 to 1 with the background.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Color contrast of large text: Large text (at or over 18 point or 14 point bold) MUST have a contrast ratio of at least 3 to 1 with the background.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Full Functionality with Altered Text Styles: In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:\nLine height (line spacing) to at least 1.5 times the font size\nSpacing following paragraphs to at least 2 times the font size\nLetter spacing (tracking) to at least 0.12 times the font size\nWord spacing to at least 0.16 times the font size.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.12"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Line Spacing: Line spacing SHOULD be at least 1.5 within paragraphs.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Paragraph Spacing: Paragraph spacing SHOULD be at least 1.5 times larger than the line spacing.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Word Spacing: Word spacing SHOULD be set to at least 0.16 times the font size.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Letter Spacing: Letter spacing SHOULD be set to at least 0.12 times the font size.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Line Justification: Text SHOULD NOT be full justified.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Column Width: The number of characters or glyphs per line in any section or column of text SHOULD NOT exceed 80 (40 characters in Chinese, Japanese, or Korean)",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Font Legibility: Fonts SHOULD be easily readable by sighted users.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "See the requirements for Color and Contrast.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Avoid CSS-Generated Content: CSS-generated content SHOULD be avoided (unless it is for presentation/decorative purposes only).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Text Alternative for CSS-Generated Content: A text alternative for informative CSS-generated content MUST be provided, AND the CSS-generated text SHOULD be set to aria-hidden=\"true\"",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Decorative CSS-Generated Content: Decorative or redundant CSS-generated content SHOULD be set to aria-hidden=\"true\"",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Emphasis: Critical emphasis in the text SHOULD be conveyed in a text-based format, not visual styling alone.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Highlighting markup: Highlighted text SHOULD be marked with the <mark> element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Text-based highlighting: Critical highlighted text SHOULD be supplemented with a text-based method to convey the meaning of the highlighting.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Blockquote: The <blockquote> element SHOULD be used to designate long (block level) quotations.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Indentation: The <blockquote> element SHOULD NOT be used for visual styling (indentation) alone.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Inline quotations: The <q> element (for inline quotations) SHOULD NOT be used as the only way to designate quotations, due to poor support in screen readers and some browsers.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Strikethrough markup: Strikethrough text SHOULD be marked with the <del> element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Strikethrough supplemental text: Critical strikethrough text MUST be supplemented with a text-based method to convey the meaning of the strikethrough.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Insert markup: Text designated for insertion SHOULD be marked with the <ins> element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Text Styles, Resize, Reflow, and Zoom",
+            "description": "Insert supplemental text: Critical text designated for insertion MUST be supplemented with a text-based method to convey the meaning of the insertion.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Visual Cues",
+            "description": "Visual Meaning: Content MUST NOT rely solely on visual characteristics such as shape, size, visual location, or orientation to convey meaning.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.3"
+        },
+        {
+            "category": "Visual Cues",
+            "description": "See the requirements for color and contrast.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Visual Cues",
+            "description": "Visual Separation of Content Blocks: Blocks of content SHOULD be visually separated and distinct from each other, via margins, padding, or other methods of achieving visual \"white space.\"",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Visual Cues",
+            "description": "Label Proximity: Labels SHOULD be visually adjacent to their controls.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Visual Cues",
+            "description": "One Visual Focal Point: The layout SHOULD have only one main visual focal point.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Visual Cues",
+            "description": "Draw Attention: The design SHOULD draw attention to the intended visual focus point.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "multiple"
+        }
+    ],
+    [
+        {
+            "category": "Adaptive and Responsive Output",
+            "description": "Horizontal or Vertical Orientation: Content MUST NOT restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/orientation.html",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.4"
+        },
+        {
+            "category": "Adaptive and Responsive Output",
+            "description": "See the requirements for Text Styles, Resize, Reflow, and Zoom",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Adaptive and Responsive Output",
+            "description": "Content that would cause scrolling in two directions (both horizontally and vertically) MUST respond to the viewport size or zoom state by resizing and/or reflowing, at viewport resolutions of up to 320px for vertically-scrolling content, and 256px for horizontally-scrolling content.\nImages\nForms\nTables\nObjects and Plugins\nUI Components\nVideo",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.10"
+        },
+        {
+            "category": "Adaptive and Responsive Output",
+            "description": "Simplified Content: Features of the content MAY be simplified, reduced in size, or eliminated when magnified or when viewed on small viewports.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Adaptive and Responsive Output",
+            "description": "Simplified User Interface: Features of the interface SHOULD be simplified, reduced in size, or eliminated when magnified or when viewed on small viewports.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Audio and Video",
+            "description": "Captions: Prerecorded video-only content MUST have synchronized captions.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Transcript: All prerecorded audio MUST have a transcript of dialog, narration, and other meaningful sounds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Control: A mechanism MUST be provided to stop, pause, mute, or adjust volume for audio that automatically plays on a page for more than 3 seconds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Sign Language: Prerecorded audio-only content MAY include sign language interpretation.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Background Sounds: Background sounds in prerecorded audio-only content SHOULD be minimized (20dB lower than foreground sounds, except for occasional sounds of no more than 2 seconds) or eliminated during narration or dialog, or a method must be available to turn off background sounds.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Alternative Text: Prerecorded video-only MUST include a text description.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Captions: Prerecorded video-only content MUST have synchronized captions.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Description: Prerecorded video-only content MUST include an audio description (narrated video description) of important visual content.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.5"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Flashing Content: A page MUST NOT contain content that flashes more than 3 times per second unless that flashing content is sufficiently small, the flashes are of low contrast, and do not violate general flash thresholds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold",
+            "required": "Required",
+            "successCriterion": "WCAG 2.3.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Alternative Text: Prerecorded video-only MUST include a text description of important visual content that is not conveyed through the audio (this can be included in the transcript).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Transcript: Prerecorded video-only MUST have a text transcript of dialog, narration, and other meaningful sounds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Captions: Prerecorded video-only content MUST have synchronized captions.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Description: Prerecorded video-only content MUST include an audio description (narrated video description) of important visual content.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.5"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Control: A mechanism MUST be provided to stop, pause, mute, or adjust volume for audio that automatically plays on a page for more than 3 seconds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Flashing Content: A page MUST NOT contain content that flashes more than 3 times per second unless that flashing content is sufficiently small, the flashes are of low contrast, and do not violate general flash thresholds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold",
+            "required": "Required",
+            "successCriterion": "WCAG 2.3.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Sign Language: Prerecorded video-only content MAY include sign language interpretation.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Background Sounds: Background sounds in prerecorded audio-only and prerecorded multimedia content SHOULD be minimized (20dB lower than foreground sounds, except for occasional sounds of no more than 2 seconds) or eliminated during narration or dialog, or a method must be available to turn off background sounds.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Control: A mechanism MUST be provided to stop, pause, mute, or adjust volume for audio that automatically plays on a page for more than 3 seconds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Background Sounds: Background sounds in live audio-only content SHOULD be minimized (20dB lower than foreground sounds, except for occasional sounds of no more than 2 seconds) or eliminated during narration or dialog, or a method must be available to turn off background sounds.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Captions: Live audio-only content SHOULD have synchronized captions.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Captions: Live video-only content MUST have synchronized captions.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/captions-live",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.4"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Flashing Content: Live video-only content MUST NOT contain content that flashes more than 3 times per second unless that flashing content is sufficiently small, the flashes are of low contrast, and do not violate general flash thresholds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold",
+            "required": "Required",
+            "successCriterion": "WCAG 2.3.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Alternative Text: Live video-only MUST include a text description.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Description: Live video-only content SHOULD include an audio description (narrated video description) of important visual content.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Captions: Live multimedia content MUST have synchronized captions.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/captions-live",
+            "required": "Required",
+            "successCriterion": "WCAG 1.2.4"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Control: A mechanism MUST be provided to stop, pause, mute, or adjust volume for audio that automatically plays on a page for more than 3 seconds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Background Sounds: Background sounds in live multimedia content SHOULD be minimized (20dB lower than foreground sounds, except for occasional sounds of no more than 2 seconds) or eliminated during narration or dialog, or a method must be available to turn off background sounds.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Flashing Content: A page MUST NOT contain content that flashes more than 3 times per second unless that flashing content is sufficiently small, the flashes are of low contrast, and do not violate general flash thresholds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold",
+            "required": "Required",
+            "successCriterion": "WCAG 2.3.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Description: Live multimedia content SHOULD include an audio description (narrated video description) of important visual content.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Audio Control: A mechanism MUST be provided to stop, pause, mute, or adjust volume for audio that automatically plays on a page for more than 3 seconds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "If Informative: If the background sounds contain informative content, all of the requirements for prerecorded audio-only content apply (see above).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Flashing Content: A page MUST NOT contain content that flashes more than 3 times per second unless that flashing content is sufficiently small, the flashes are of low contrast, and do not violate general flash thresholds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold",
+            "required": "Required",
+            "successCriterion": "WCAG 2.3.1"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "See the requirements for color contrast (for text and UI elements overlayed on top of video).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "If Informative: If the background video contains informative content, all of the requirements for prerecorded video-only content apply (see above).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Audio and Video",
+            "description": "Media players themselves MUST be fully accessible (in particular to keyboard users and screen reader users). See the requirements for:\n\nMedia player keyboard accessibility\nMedia player screen reader accessibility\nCaptions, transcripts, audio descriptions within the media player\nUser customization options within the media player\nSee also the requirements for Forms, User Input, and Validation\nSee also the requirements for Custom Widgets (JavaScript)",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        }
+    ],
+    [
+        {
+            "category": "Animation, Motion, and Timed Content",
+            "description": "See the audio and video requirements.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "Animation, Motion, and Timed Content",
+            "description": "Flashing: A page MUST NOT contain content that flashes more than 3 times per second unless that flashing content is sufficiently small, the flashes are of low contrast, and do not violate general flash thresholds.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold",
+            "required": "Required",
+            "successCriterion": "WCAG 2.3.1"
+        },
+        {
+            "category": "Animation, Motion, and Timed Content",
+            "description": "Keyboard-Accessible: All content and features within parallax scrolling content MUST be accessible by keyboard.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.1"
+        },
+        {
+            "category": "Animation, Motion, and Timed Content",
+            "description": "Text Color Contrast: The contrast of the text against all parts of a moving background MUST be a minimum of 4.5 to 1 for small text or 3 to 1 for large or bold text.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.3"
+        },
+        {
+            "category": "Animation, Motion, and Timed Content",
+            "description": "UI Component Color Contrast: The contrast of UI control boundaries compared to adjacent areas SHOULD be 3 to 1 to distinguish the UI control from the adjacent areas.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.11"
+        },
+        {
+            "category": "Animation, Motion, and Timed Content",
+            "description": "Autoplay: A method MUST be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.2"
+        },
+        {
+            "category": "Animation, Motion, and Timed Content",
+            "description": "Time Limits: A method MUST be provided to allow users to control time limits by turning them off, adjusting them, or extending them (unless the timing is essential or if the time limit is longer than 20 hours).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.1"
+        },
+        {
+            "category": "Animation, Motion, and Timed Content",
+            "description": "Replay Option: A method SHOULD be provided to allow users to replay timed content that is finished or expired (unless replaying the content fundamentally alters its purpose or meaning).",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Device-Independent User Input",
+            "description": "Focusable with Tab Key: Links, buttons, and interactive controls MUST be keyboard-focusable.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.1"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Logical Tab Order: The navigation order of focusable elements MUST be logical and intuitive.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "No Positive tabindex Values: tabindex of positive values SHOULD NOT be used.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Visual Focus Indicator: All focusable elements MUST have a visual focus indicator when in focus.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.7"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Enhanced Visual Focus Indicator: Focusable elements SHOULD have enhanced visual focus indicator styles.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Color Contrast of Visual Focus Indicator: The contrast of all large visual focus indicators (at least 3px by 3px) against the background) SHOULD be at least 3 to 1.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
+            "required": "Required",
+            "successCriterion": "WCAG 1.4.11"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Keyboard Functionality: Functionality MUST be available using the keyboard, unless the functionality cannot be accomplished in any known way using a keyboard.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.1"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Keyboard Traps: Keyboard focus MUST NOT be locked or trapped in a particular page element and the user MUST be able to navigate to and from all navigable page elements using only a keyboard.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.2"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Keyboard Shortcuts: Page-specified shortcut keys and accesskeys MUST NOT conflict with existing keyboard shortcuts in the browser, operating system, or assistive technologies.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.4"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Custom Keystroke Instructions: When custom keyboard behavior is required to use a component, keyboard instructions MUST be provided.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "ARIA Widget Instructions: ARIA widgets that require more than just the Tab key to interact with may be confusing to users (even when the widgets follow the WAI-ARIA Authoring Practices), so you MAY provide keyboard instructions.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Set Keyboard Focus: The focus MUST be purposely moved or set (via JavaScript) onto the appropriate element when the user's action requires a change of context or location for effective keyboard or touch interaction.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "No Lost Focus: The focus MUST NOT become lost or reset to the top of the page, except when loading or re-loading a page.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Focus Target Has Text: When moving or setting focus, the destination element MUST contain discernible text (either standard text or programmatically-associated text).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Click Target Size: The click target size SHOULD be at least 44 by 44 CSS pixels.\n\nNote: Allowed exceptions include the following circumstances:\n\nThe target is available through an equivalent control of at least 44 by 44 CSS pixels\nThe target is inline (in a sentence or block of text)\nThe target size is user-customizable\nThe smaller target size is essential to the information or functionality",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Visual Hover Indicator: An enhanced visual hover indicator SHOULD be provided.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Pointer Cancellation: For functionality that can be operated using a single-pointer, at least one of the following MUST be true: no down-event, can abort/undo, up reversal, or essential.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.2"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Visual Labels Match Programmatic Labels: The visual labels for links, buttons, form elements, and other controls SHOULD match the programmatic labels (to allow easy and intuitive voice commands).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.3"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "All the keyboard requirements above apply.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Touch Functionality: Functionality MUST be available using standard touch methods, unless the functionality cannot be accomplished in any known way using a touch device.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.1"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Touch Functionality with Screen Reader Enabled: Functionality MUST be available using screen reader touch methods (e.g. single tap or double tap actions), unless the functionality cannot be accomplished in any known way using a touch device.\n\nNote: The touch actions with the screen reader turned on are completely different from the touch actions when the screen reader is turned off.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.1"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Single pointer: Functionality MUST work with a single pointer (e.g. a single finger), unless multipoint activation is essential.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.1"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Touch cancellation: Touch events MUST NOT be activated on a down event (use up events instead), to allow users to cancel, abort, or undo touch events, unless the down event is essential.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.2"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Gesture-Only Functionality: Features MUST NOT depend on swipe or gesture motions as the only activation method.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.1<br>"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Motion Actuation: Features MUST NOT depend on kinetic motion of the device (e.g. shake, raise, lower, tilt).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.4"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Focus Trap: Touch/gesture focus MUST NOT be locked or trapped in a particular page element and the user MUST be able to navigate to and from all navigable page elements using standard touch actions.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap",
+            "required": "Required",
+            "successCriterion": "WCAG 2.1.2"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Touch Target Size: The click/touch target size SHOULD be at least 44x44 CSS pixels, unless at least one of the following is true:\n\nThere is an equivalent control on the same page that is at least 44x44 CSS pixels, OR\nThe target is inline (in a sentence or block of text), OR\nThe user agent controls the target size, OR\nThe smaller size of the target is essential to the information being conveyed.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Pointer Gestures: All functionality that uses multipoint or path-based gestures for operation MUST be operable with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.1"
+        },
+        {
+            "category": "Device-Independent User Input",
+            "description": "Motion Actuation: Functionality that can be operated by device or user motion MUST also be operable by user interface components and MUST allow the ability to disable motion actuation.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.4"
+        }
+    ],
+    [
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatic Labels: Labels MUST be programmatically associated with their corresponding elements.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Discernible Label Text: Labels MUST be available as programmatically-discernible text.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Meaningful Labels: Labels MUST be meaningful.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Sensory Dependencies of Labels: Labels MUST NOT rely solely on references to sensory characteristics.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.3"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Icons as Labels: Icons/graphics MAY be used as the only visual label (without visual text) only if the meaning of the icon is visually self-evident AND if there is a programmatically associated semantic label available to assistive technologies.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Placeholder Text: Placeholder text is allowed, but MUST NOT be used as the only method of providing a label for a text input.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visible Labels: Labels MUST be visible.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Label in Name: For user interface components with labels that include text or images of text, the name MUST contain the text that is presented visually.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.3"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Matching Programmatic Label and Visual Label: The programmatic label MUST include the same text presented in the visual label, to facilitate voice activation.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.3"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Multiple Labels for One Input: When multiple labels are used for one element, each label MUST be programmatically associated with the corresponding element.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "One Label for Multiple Inputs: When one label is used for multiple elements, the label MUST be programmatically associated with each of the corresponding elements.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visually Adjacent Labels: A label SHOULD be visually adjacent to its corresponding element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatically Adjacent Labels: A label SHOULD be adjacent in the DOM to its corresponding element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatic Group Labels: Group labels MUST be programmatically-associated with the group if the individual labels for each element in the group are insufficient on their own (e.g. a group of radio buttons that has a group label plus individual labels for each radio option).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Discernible Text in Group Labels: Group labels MUST contain programmatically-discernible text.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Meaningful Group Labels: Group labels MUST be meaningful.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Sensory Dependencies of Group Labels: Group labels MUST NOT rely solely on references to sensory characteristics.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.3"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visible Group Labels: Group labels MUST be visible.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Matching Programmatic Label and Visual Label: The programmatic label MUST include the same text presented in the visual label, to facilitate voice activation.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html",
+            "required": "Required",
+            "successCriterion": "WCAG 2.5.3"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visually Adjacent Group Labels: Group labels SHOULD be visually adjacent to the grouped elements.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatically Adjacent Group Labels: Group labels SHOULD be adjacent in the DOM to the grouped elements.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Identify Input Purpose: The purpose for each common input field that collects an individual's personal data MUST be programmatically defined based on the list of 53 Input Purposes for User Interface Components.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.5"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatic Association of Input Instructions: Instructions for an element MUST be programmatically-associated with the element.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatically-Discernible Text in Input Instructions: Instructions for an element MUST be available as programmatically-discernible text.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Meaningful Input Instructions: Instructions for an element MUST be meaningful.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visible Input Instructions: Instructions for an element MUST be visible.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Sensory Dependencies of Input Instructions: Instructions for an element MUST NOT rely solely on references to sensory characteristics.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.3"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Hidden Input Instructions: If the instructions for an element are not critical, the instructions MAY be hidden until the user requests them.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visually Adjacent Input Instructions: Instructions for an element SHOULD be visually adjacent to the element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatically Adjacent Input Instructions: Instructions for an element SHOULD be adjacent in the DOM to the element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatic Association of Group Instructions: Instructions for groups or sections SHOULD be programmatically-associated with the group.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatically-Discernible Text in Group Instructions: Instructions for groups or sections MUST be programmatically-discernible.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Meaningful Group Instructions: Instructions for groups or sections MUST be meaningful.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visible Group Instructions: Instructions for groups or sections MUST be visible.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.2"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Sensory Dependencies of Group Instructions: Instructions for groups or sections MUST NOT rely solely on references to sensory characteristics.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.3"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Hidden Form Instructions: If the instructions are not critical to understand the purpose of a group or section, the instructions MAY be hidden until the user requests them.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visually Adjacent Group Instructions: Instructions for groups or sections SHOULD be visually adjacent to the grouped elements.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatically-Adjacent Group Instructions: Instructions for groups or sections SHOULD be adjacent in the DOM to the grouped elements.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Programmatic Designation: Required fields SHOULD be programmatically designated as such.\n\nNote: At a minimum, WCAG requires an informative error message about the field after the user submits the form.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Visual Indicator: Required fields SHOULD have a visual indicator that the field is required.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Information About Data Input Restrictions: If a field allows only restricted input (e.g. a certain date format, only integers, no more than 4 characters, etc.), the restrictions SHOULD be communicated in the label or instructions.\n\nNote: At a minimum, WCAG requires an informative error message about the field after the user submits the form.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Awareness of disabled fields: If awareness of a disabled field is essential to understanding the content, an alternative way of communicating information about the disabled field MUST be provided (because disabled fields are not in the normal tab order by default, making it difficult for screen reader users to discover them).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "Sufficient Time. Users MUST be allowed sufficient time to complete the form, through at least one of the following methods:\n\nNo time limit\nThe ability to turn off the time limit\nThe ability to extend the time limit\nThe ability to adjust/customize time limit\nA minimum of 20 hours to complete the form\n\nNote: This requirement can be waived if the time limit is essential to the meaning or purpose of the form (e.g. a timed auction).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable",
+            "required": "Required",
+            "successCriterion": "WCAG 2.2.1"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "See the requirements for Dynamic Content (JavaScript, AJAX)",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Input, Labels, and Instructions",
+            "description": "See the requirements for Custom Widgets (JavaScript/ARIA)",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Form Validation and Feedback",
+            "description": "See the requirements and recommendations for Form Input, Labels, and Instructions, including:\n\nLabels for inputs\nLabels for groups of inputs\nInstructions about inputs\nInstructions about an entire form, a group, or a section\nRequired fields (in the full list of recommendations)\nData input restrictions (in the full list of recommendations)\nDisabled fields\nTime limits",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Context-Sensitive Help: Context-sensitive help SHOULD be available.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Web pages that process user input for any of the following:\n\nlegal commitments,\nfinancial transactions,\nuser-controllable data (e.g. user profile, social media posts, OR\ntest/quiz responses\n\nMUST implement at least one of the following error prevention techniques:\n\nReversible: Submissions are reversible.\nChecked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.\nConfirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.4"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "All web pages that process user input SHOULD implement at least one of the following error prevention techniques:\n\nReversible: Submissions are reversible.\nChecked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.\nConfirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Error Identification: If an error is automatically detected, the input with the error MUST be identified. Valid techniques include the following:\n\nAdd aria-invalid=\"true\" to the input\nIdentify the input (referencing the label):\nin a simple JavaScript alert\nwith information associated with the input via aria-describedby (widely supported) or aria-errormessage (not yet widely supported)\nwith error text added to the input's label (other techniques are more semantically correct, but this is a reliable method)\nwith text on the web page (it may be appropriate to move the keyboard focus to the error message)\nwith an aria-live or role=\"alert\" announcement\nwith information about the error in the page <title> if the submission causes a page reload or a new page load.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/error-identification",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.1"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Visible Real-Time Error Messages: Real-time error messages MAY be scripted to show on the screen for sighted users, but attempts to announce the real-time messages to screen reader users can be problematic (see the next two rows below). It is usually acceptable to wait to announce real-time errors until after form submission, assuming that no data has been saved yet.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Live Announcements per Keystroke: ARIA live error messages SHOULD NOT be scripted to occur with every keystroke (to avoid overwhelming screen reader users), unless there is a delay built into the script to avoid announcements while the user is actively typing.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Live Announcements on Leaving a Field: ARIA live error messages SHOULD NOT be scripted to occur when a user leaves a field, because the aria-live announcement will may conflict with the screen reader's attempt to read the next element which receives focus, causing some information to be interrupted or not announced at all.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Error Suggestion: If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.3"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Programmatically-Associated: Error feedback SHOULD be programmatically-associated with the appropriate element.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Meaningful Error Message: Error feedback MUST clearly and accurately describe the error and/or how to fix the error.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Visible Error Message: Error feedback MUST be visible.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion",
+            "required": "Required",
+            "successCriterion": "WCAG 3.3.3"
+        },
+        {
+            "category": "Form Validation and Feedback",
+            "description": "Success Confirmation: The web page SHOULD confirm successful submission of data. Possible techniques include the following:\n\na simple JavaScript alert\nwith confirmation text on the web page (it may be appropriate to move the keyboard focus to the error message)\nwith an aria-live or role=\"alert\" announcement\nwith the confirmation message in the page <title> if the submission causes a page reload or a new page load.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Context Changes on focus: The focus MUST be purposely moved or set (via JavaScript) onto the appropriate element when the user's action requires a change of context or location for effective keyboard or touch interaction.\nContext Changes on Input:",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/on-input",
+            "required": "Required",
+            "successCriterion": "WCAG 3.2.2"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Finding Added Content: Silence is bad. When screen reader users activate a feature (link, button, control, etc.), or when an important part of the content changes, they need to hear feedback. One of the basic challenges with dynamic content is to figure out the best way to tell screen reader users about the dynamic changes.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.2"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Set Keyboard Focus: The focus MUST be purposely moved or set (via JavaScript) onto the appropriate element when the user's action requires a change of context or location for effective keyboard or touch interaction.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "No Lost Focus: The focus MUST NOT become lost or reset to the top of the page, except when loading or re-loading a page.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Focus Target Has Text: When moving or setting focus, the destination element MUST contain discernible text (either standard text or programmatically-associated text).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Session Timeout:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Timers with Fixed Deadlines",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Auto Refresh/Reload Page:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Auto Refresh/Reload Content Items or Sections",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Programmatic State Changes: When the state of an element changes (e.g. selected, expanded, inactive), the state MUST be programmatically changed via HTML or ARIA attributes, not just visually changed.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Input: See the requirements for Form Input, Labels, and Instructions",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Feedback: See the requirements for Form Validation and Feedback",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Focus:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Hover:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Gesture:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Input:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Blur:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Scroll:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Device Orientation Change:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Device Motion Activation:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Device Spatial Orientation Detection:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Notifications for AJAX Passive/Lazy Load:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Placeholder Content for AJAX Passive/Lazy Load:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Busy State During AJAX Passive/Lazy Load:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "Timed Changes",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Click/Touch:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "On Submit/Button Activation:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "AJAX Partial Page Load (Main Content) on Activate Link or Button:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "AJAX Partial Page Load (Secondary Content) on Activate Link or Button:",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Dynamic Content (JavaScript, AJAX)",
+            "description": "See the requirements for Device-Independent User Input regarding:\n\nMouse\nKeyboard\nTouch\nVoice",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Name of Interactive UI Elements: Every interactive UI element (e.g. links, buttons, controls for custom widgets, form inputs/elements) MUST have a name, according to the accessible name computation.\n\nNote: The name can come from the native text of the element (e.g. link text, <button> text), a value attribute (e.g. <input type=\"submit\" value=\"Name goes here\">), the aria-label text, the text referred to via the aria-labelledby ID value, or other attributes, such as title (depending on context).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Name of Static Semantic Elements: The following semantic elements MUST have an accessible name, according to the accessible name computation:\n\nHeadings (or elements with role=\"heading\")\nImages (or elements with role=\"image\")\nLinks (or elements with role=\"link\"), via link text, aria-label (e.g. when the link contains only a background image), or aria-labelledby)\nFrames, via the title attribute\nIframes, via the title attribute",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Other Semantic Elements Benefitting from a Name: Examples of other semantic elements that SHOULD have an accessible name, according to the accessible name computation include:\n\nLandmarks (HTML 5 or ARIA landmarks); Names are especially helpful when there are two of the same type of landmark on the same page, such as two navigation landmarks\nTables (via <caption>, aria-label, or aria-labelledby)",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Role Specified: The semantic meaning of elements MUST be communicated via appropriate native HTML element or ARIA role.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "HTML versus ARIA Role: When an HTML element exists, the HTML element SHOULD be used instead of the equivalent ARIA role, whenever possible.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Static ARIA Properties: Static ARIA properties (e.g. aria-valuemax), MUST be specified.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Static Non-ARIA Properties: Static non-ARIA properties MUST be specified in text (or alternative text).\n\nNote: The static property may be included in the native text of an element, in its label, in associated text (e.g. via aria-describedby), in adjacent text, or in some other way that is available to assistive technologies.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Initial State: The initial state of a changeable UI element MUST be programmatically designated (e.g. via ARIA attributes such as aria-expanded=\"false\", aria-selected=\"true\", aria-sort=\"ascending\", etc.)",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "ARIA State Changes: When the visual and/or functional state of an element changes (e.g. aria-valuenow, aria-pressed, aria-expanded, aria-checked), the ARIA state MUST be change accordingly.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Non-ARIA State Changes: If a state change cannot be communicated via a change in an ARIA attribute, when the state change is the result of a user action or request, the state change MUST be communicated to the user visually AND MUST be communicated to assistive technologies using a technique such as:\n\naria-live announcement\nARIA alert (inject text into a pre-existing container with role=\"alert\")\nMove keyboard focus to the announcement (warning: moving the focus can be disorienting, so should be used with caution)",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+            "required": "Required",
+            "successCriterion": "WCAG 4.1.2"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Set Keyboard Focus: The focus MUST be purposely moved or set (via JavaScript) onto the appropriate element when the user's action requires a change of context or location for effective keyboard or touch interaction.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "No Lost Focus: The focus MUST NOT become lost or reset to the top of the page, except when loading or re-loading a page.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order",
+            "required": "Required",
+            "successCriterion": "WCAG 2.4.3"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Focus Target Has Text: When moving or setting focus, the destination element MUST contain discernible text (either standard text or programmatically-associated text).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships",
+            "required": "Required",
+            "successCriterion": "WCAG 1.3.1"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "See https://www.w3.org/TR/wai-aria-practices-1.1/#keyboard",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Instructions for Custom Widgets: Widgets with non-standard interaction models SHOULD have instructions explaining how to use them.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "See also the requirements for Form Input, Labels, and Instructions.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Accordion widgets SHOULD conform to WAI-ARIA Authoring Practices for Accordions.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Alert widgets SHOULD conform to WAI-ARIA Authoring Practices for Alerts.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Alert Dialog widgets SHOULD conform to WAI-ARIA Authoring Practices for Alert Dialogs.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Autocomplete widgets SHOULD conform to WAI-ARIA Authoring Practices for Autocomplete widgets.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Breadcrumb widgets SHOULD conform to WAI-ARIA Authoring Practices for Breadcrumbs.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Button widgets SHOULD conform to WAI-ARIA Authoring Practices for Buttons.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Button (Toggle) SHOULD conform to WAI-ARIA Authoring Practices for Buttons.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Carousel widgets (based on a Tab Panel) SHOULD conform to WAI-ARIA Authoring Practices for Tab Panels.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Checkbox widgets SHOULD conform to WAI-ARIA Authoring Practices for Checkboxes.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Checkbox (Tri-State) widgets SHOULD conform to WAI-ARIA Authoring Practices for Checkboxes.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Combobox widgets SHOULD conform to WAI-ARIA Authoring Practices for Comboboxes.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Dialog (Simple Modal) widgets SHOULD conform to WAI-ARIA Authoring Practices for Modal Dialogs.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Dialog (Simple Alert Modal) widgets SHOULD conform to WAI-ARIA Authoring Practices for Modal Dialogs.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Dialog (Message Modal) widgets SHOULD conform to WAI-ARIA Authoring Practices for Modal Dialogs.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Dialog (Message Alert Modal) widgets SHOULD conform to WAI-ARIA Authoring Practices for Modal Dialogs.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Disclosure (Show/Hide or Expand/Collapse) widgets SHOULD conform to WAI-ARIA Authoring Practices for Disclosures.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Disclosure (Based on Details/Summary) widgets SHOULD conform to WAI-ARIA Authoring Practices for Disclosures.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Feed widgets SHOULD conform to WAI-ARIA Authoring Practices for Feeds.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Grid widgets (Interactive Tabular Data and Layout Containers) SHOULD conform to WAI-ARIA Authoring Practices for Grids.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Link widgets SHOULD conform to WAI-ARIA Authoring Practices for Links.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Listbox widgets SHOULD conform to WAI-ARIA Authoring Practices for List Boxes.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Menu widgets SHOULD conform to WAI-ARIA Authoring Practices for Menus.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Menubar widgets SHOULD conform to WAI-ARIA Authoring Practices for Menubars.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Menu Button widgets SHOULD conform to WAI-ARIA Authoring Practices for Menu Buttons.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Navigation (Hierarchical) widgets with Expand/Collapse widgets SHOULD conform to WAI-ARIA Authoring Practices for Disclosures.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Progress Bar (Bounded) widgets SHOULD conform to WAI-ARIA Authoring Practices for Progress Bars.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Progress Bar (Unbounded) widgets SHOULD conform to WAI-ARIA Authoring Practices for Progress Bars.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Radio and Radio Group widgets SHOULD conform to WAI-ARIA Authoring Practices for Radio Groups.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Slider widgets SHOULD conform to WAI-ARIA Authoring Practices for Sliders.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Slider (Multi-Thumb) widgets SHOULD conform to WAI-ARIA Authoring Practices for Multi-Thumb Sliders.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Spinbutton widgets SHOULD conform to WAI-ARIA Authoring Practices for Spinbuttons.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Tab Panel widgets SHOULD conform to WAI-ARIA Authoring Practices for Tab Panels.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Table widgets SHOULD conform to WAI-ARIA Authoring Practices for Tables.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Table (Responsive, Collapsible) widgets SHOULD maintain data relationships through table structure, list hierarchy, and/or headings.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Table (Sortable) widgets SHOULD be constructed of a standard HTML table, if possible, and make full use of ARIA sort attributes.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Toolbar widgets SHOULD conform to WAI-ARIA Authoring Practices for Toolbars.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Tooltip widgets SHOULD conform to WAI-ARIA Authoring Practices for Tooltips.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Tooltip Dialog widgets SHOULD conform to WAI-ARIA Authoring Practices for Dialogs.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Tree View widgets SHOULD conform to WAI-ARIA Authoring Practices for Tree Views.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "Custom Widgets (JavaScript, ARIA)",
+            "description": "Window Splitter widgets SHOULD conform to WAI-ARIA Authoring Practices for Window Splitters.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        }
+    ],
+    [
+        {
+            "category": "CAPTCHA",
+            "description": "Text alternative describing the purpose: If the CAPTCHA is not text-based (e.g. image or audio), a text alternative MUST communicate the purpose of the CAPTCHA, so that the user knows that this task must be completed before proceeding to the next step.\nNote 1: Ideally the alternative text would allow non-visual users to complete the task, but at a minimum it should inform users of the purpose of the CAPTCHA.\nNote 2: If there is an alternative CAPTCHA (e.g. in text elsewhere on the page, or in audio), the user SHOULD be notified that the alternative exists, by mentioning it either in the alternative text for the original CAPTCHA, or in the surrounding text.",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "CAPTCHA",
+            "description": "Text-based CAPTCHA: A method SHOULD be available in a text-based format (either as the main CAPTCHA or as an alternative) that can be converted by a screen reader to braille output.\nNote: Although WCAG does not require a text-based CAPTCHA, deafblind users require a text-based method, because neither visual nor audio methods will be sufficient.",
+            "link": "no link",
+            "required": "Best Practice",
+            "successCriterion": "not applicable"
+        },
+        {
+            "category": "CAPTCHA",
+            "description": "Sensory alternative: If a non-visual user cannot pass the original CAPTCHA, an alternative method MUST be provided in another sensory modality (e.g. audio).",
+            "link": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content",
+            "required": "Required",
+            "successCriterion": "WCAG 1.1.1"
+        },
+        {
+            "category": "CAPTCHA",
+            "description": "User input controls in a CAPTCHA (or in an alternative representation) must meet all the keyboard functionality requirements.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "CAPTCHA",
+            "description": "Any dynamic content in a CAPTCHA (or in an alternative method) must meet all the dynamic content (JavaScript, AJAX) requirements.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "CAPTCHA",
+            "description": "Any custom widgets in a CAPTCHA (or in an alternative method) must meet all the custom widgets (JavaScript, ARIA) requirements.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        },
+        {
+            "category": "CAPTCHA",
+            "description": "Any visual elements in a CAPTCHA (or in an alternative method) must meet all the color and contrast requirements.",
+            "link": "no link",
+            "required": "Required",
+            "successCriterion": "multiple"
+        }
+    ]
 ]
