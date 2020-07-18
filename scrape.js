@@ -104,7 +104,7 @@ var fs = require('fs');
 		}
         await browser.close();
 		// Writing the techniques inside a json file
-		fs.writeFile('deque-checklist-page-title.json', JSON.stringify(completeArray), function(err) {
+		fs.writeFile('deque-checklist.json', JSON.stringify(completeArray), function(err) {
 			if (err) throw err;
             console.log('Saved!');
 		    console.log('Browser Closed');
