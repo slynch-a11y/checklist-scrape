@@ -56,7 +56,13 @@ var fs = require('fs');
 						if (wcag[i].innerHTML.includes('Multiple')) {
                             requiredOrBestPractice = 'Required';
                             successCriterion = 'multiple';
+                            wcagLink = 'no link';
                         } 
+                        else if (wcag[i].innerHTML.includes('best practice')){
+                            requiredOrBestPractice = 'Best Practice';
+                            successCriterion = 'not applicable';
+                            wcagLink = 'no link';
+                        }
                         else if (wcag[i].innerHTML.includes('http')) {
 							var innerHTML = wcag[i].innerHTML;
 							wcagLink = innerHTML.substring(innerHTML.indexOf('https'), innerHTML.indexOf('">W'));
@@ -65,10 +71,6 @@ var fs = require('fs');
                                 .slice(1);
                             requiredOrBestPractice = 'Required';
 						}
-                        else if (wcag[i].innerHTML.includes('best practice')){
-                            requiredOrBestPractice = 'Best Practice';
-                            successCriterion = 'not applicable';
-                        }
                         else {
                             requiredOrBestPractice = 'none';
                             successCriterion = 'not posted';
