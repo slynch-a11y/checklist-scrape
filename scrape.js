@@ -57,24 +57,24 @@ var fs = require('fs');
                             requiredOrBestPractice = 'Required';
                             successCriterion = 'multiple';
                         } 
-                        else if (wcag[i].innerHTML.includes('Required')){
-                            requiredOrBestPractice = 'Required';
-                        }
-                        else {
-							requiredOrBestPractice = 'Best Practice';
-						}
-						if (wcag[i].innerHTML.includes('http')) {
+                        else if (wcag[i].innerHTML.includes('http')) {
 							var innerHTML = wcag[i].innerHTML;
 							wcagLink = innerHTML.substring(innerHTML.indexOf('https'), innerHTML.indexOf('">W'));
 							successCriterion = innerHTML
 								.substring(innerHTML.indexOf('>WCAG'), innerHTML.indexOf('</a>'))
-								.slice(1);
-						} else {
-                            wcagLink = 'no link';
-                            if (successCriterion !== 'multiple'){
-                                successCriterion = 'not applicable';
-                            }
+                                .slice(1);
+                            requiredOrBestPractice = 'Required';
 						}
+                        else if (wcag[i].innerHTML.includes('best practice')){
+                            requiredOrBestPractice = 'Best Practice';
+                            successCriterion = 'not applicable';
+                        }
+                        else {
+                            requiredOrBestPractice = 'none';
+                            successCriterion = 'not posted';
+                            wcagLink = 'no link';
+                        }
+						
 					} else {
 						requiredOrBestPractice = 'none';
 						wcagLink = 'no link';
